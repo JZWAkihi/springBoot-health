@@ -15,6 +15,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -165,22 +168,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="454" y="0" key="#org.jetbrains.kotlin.idea.refactoring.safeDelete.KotlinOverridingDialog/0.0.1536.864@0.0.1536.864" timestamp="1629474844270" />
-    <state width="1170" height="104" key="GridCell.Tab.0.bottom" timestamp="1629521709125">
+    <state width="1170" height="104" key="GridCell.Tab.0.bottom" timestamp="1629524025787">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1170" height="104" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1629521709125" />
-    <state width="1170" height="104" key="GridCell.Tab.0.center" timestamp="1629521709125">
+    <state width="1170" height="104" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1629524025787" />
+    <state width="1170" height="104" key="GridCell.Tab.0.center" timestamp="1629524025787">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1170" height="104" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1629521709125" />
-    <state width="1170" height="104" key="GridCell.Tab.0.left" timestamp="1629521709124">
+    <state width="1170" height="104" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1629524025787" />
+    <state width="1170" height="104" key="GridCell.Tab.0.left" timestamp="1629524025786">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1170" height="104" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1629521709124" />
-    <state width="1170" height="104" key="GridCell.Tab.0.right" timestamp="1629521709125">
+    <state width="1170" height="104" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1629524025786" />
+    <state width="1170" height="104" key="GridCell.Tab.0.right" timestamp="1629524025787">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1170" height="104" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1629521709125" />
+    <state width="1170" height="104" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1629524025787" />
     <state width="1170" height="104" key="GridCell.Tab.1.bottom" timestamp="1629521709125">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
