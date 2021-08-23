@@ -1,6 +1,0 @@
-com\jiang\healthquartz\Task\ClearImgJob.class
-com\jiang\healthquartz\Task\TestTask1.class
-com\jiang\healthquartz\config\RedisConfig.class
-com\jiang\healthquartz\config\QuartzConfig.class
-com\jiang\healthquartz\Task\TestTask2.class
-com\jiang\healthquartz\HealthquartzApplication.class

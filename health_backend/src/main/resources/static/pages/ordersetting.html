@@ -37,7 +37,7 @@
                         <el-button style="margin-bottom: 20px;margin-right: 20px" type="primary"
                                    @click="downloadTemplate()">模板下载
                         </el-button>
-                        <el-upload action="/ordersetting/upload.do"
+                        <el-upload action="/ordersetting/upload"
                                    name="excelFile"
                                    :show-file-list="false"
                                    :on-success="handleSuccess"
@@ -151,7 +151,7 @@
                     inputErrorMessage: '只能输入正整数'
                 }).then(({ value }) => {
                     //发送ajax请求根据日期修改可预约人数
-                    axios.post("/ordersetting/editNumberByDate.do",{
+                    axios.post("/ordersetting/editNumberByDate",{
                         orderDate:this.formatDate(day.getFullYear(),day.getMonth()+1,day.getDate()), //日期
                         number:value   //可预约人数
                     }).then((response)=>{
@@ -263,7 +263,7 @@
 
                 //发送ajax请求，根据当前页面对应的月份查询预约设置信息
                 axios.post(
-                    "/ordersetting/getOrderSettingByMonth.do?date=" + this.currentYear + '-' + this.currentMonth
+                    "/ordersetting/getOrderSettingByMonth?date=" + this.currentYear + '-' + this.currentMonth
                 ).then((response) => {
                     if (response.data.flag) {
                         //为模型数据赋值，通过双向绑定展示到日历中
