@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d448a00b-a61c-408e-8de6-d8aa5afd05a3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_backend/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/health_backend/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_backend/src/main/resources/static/pages/setmeal.html" beforeDir="false" afterPath="$PROJECT_DIR$/health_backend/src/main/resources/static/pages/setmeal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_common/src/main/java/com/jiang/utils/QiniuUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_common/src/main/java/com/jiang/utils/QiniuUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_service_provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_service_provider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_service_provider/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/health_service_provider/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health_service_provider/src/test/java/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_service_provider/src/test/java/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_service_provider/target/test-classes/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/health_service_provider/target/test-classes/test.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,22 +70,26 @@
     <property name="project.structure.side.proportion" value="0.24712643" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Document\Code\java\coding\SpringBoot-health\health_service_provider\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jiang.healthquartz.config" />
+      <recent name="com.jiang.health_service_provider.config" />
+      <recent name="com.jiang.health_backend.config" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Document\Code\java\coding\SpringBoot-health\health_service_provider\src\main\resources\mapper" />
       <recent name="D:\Document\Code\java\coding\SpringBoot-health\health_interface\src\main\java\com\jiang" />
       <recent name="D:\Document\Code\java\coding\SpringBoot-health\health_common\src\main\java\com\jiang" />
       <recent name="D:\Document\Code\java\coding\SpringBoot-health\health_backend\src\main\resources\static" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.jiang.health_service_provider.config" />
-      <recent name="com.jiang.health_backend.config" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Document\Code\java\coding\SpringBoot-health\health_service_provider\src\main\resources" />
-    </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.HealthBackendApplication">
+  <component name="RunManager" selected="Spring Boot.HealthquartzApplication">
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test" />
       <module name="health_service_provider" />
@@ -151,12 +151,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HealthquartzApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="health_quartz" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jiang.healthquartz.HealthquartzApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.test.Test" />
         <item itemvalue="JUnit.test.Test1" />
         <item itemvalue="JUnit.test.Test2" />
         <item itemvalue="Application.test" />
-        <item itemvalue="JUnit.test.Test" />
         <item itemvalue="JUnit.test.test" />
       </list>
     </recent_temporary>
@@ -190,6 +197,7 @@
       <workItem from="1629617146274" duration="7460000" />
       <workItem from="1629636146695" duration="3065000" />
       <workItem from="1629652555820" duration="6424000" />
+      <workItem from="1629692702213" duration="4547000" />
     </task>
     <servers />
   </component>
@@ -201,10 +209,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="361" y="91" key="#Inspections/0.0.1536.864@0.0.1536.864" timestamp="1629622720021" />
-    <state x="531" y="93" key="#Project_Structure" timestamp="1629653238395">
+    <state x="531" y="93" key="#Project_Structure" timestamp="1629696870370">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="531" y="93" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1629653238395" />
+    <state x="531" y="93" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1629696870370" />
     <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1629442392202">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -213,10 +221,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="738" y="252" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1629437296334" />
-    <state x="819" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1629658435358">
+    <state x="819" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1629696654742">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="819" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1629658435358" />
+    <state x="819" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1629696654742" />
     <state x="756" y="190" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1629436824353">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -229,54 +237,54 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1629638557688" />
-    <state width="1493" height="235" key="GridCell.Tab.0.bottom" timestamp="1629659037498">
+    <state width="1250" height="298" key="GridCell.Tab.0.bottom" timestamp="1629699254950">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="235" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1629659037498" />
-    <state width="1493" height="235" key="GridCell.Tab.0.center" timestamp="1629659037497">
+    <state width="1250" height="298" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1629699254950" />
+    <state width="1250" height="298" key="GridCell.Tab.0.center" timestamp="1629699254948">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="235" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1629659037497" />
-    <state width="1493" height="235" key="GridCell.Tab.0.left" timestamp="1629659037497">
+    <state width="1250" height="298" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1629699254948" />
+    <state width="1250" height="298" key="GridCell.Tab.0.left" timestamp="1629699254947">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="235" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1629659037497" />
-    <state width="1493" height="235" key="GridCell.Tab.0.right" timestamp="1629659037498">
+    <state width="1250" height="298" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1629699254947" />
+    <state width="1250" height="298" key="GridCell.Tab.0.right" timestamp="1629699254949">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="235" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1629659037498" />
-    <state width="1493" height="235" key="GridCell.Tab.1.bottom" timestamp="1629659037498">
+    <state width="1250" height="298" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1629699254949" />
+    <state width="1250" height="298" key="GridCell.Tab.1.bottom" timestamp="1629699254951">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="235" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1629659037498" />
-    <state width="1493" height="235" key="GridCell.Tab.1.center" timestamp="1629659037498">
+    <state width="1250" height="298" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1629699254951" />
+    <state width="1250" height="298" key="GridCell.Tab.1.center" timestamp="1629699254950">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="235" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1629659037498" />
-    <state width="1493" height="235" key="GridCell.Tab.1.left" timestamp="1629659037498">
+    <state width="1250" height="298" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1629699254950" />
+    <state width="1250" height="298" key="GridCell.Tab.1.left" timestamp="1629699254950">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="235" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1629659037498" />
-    <state width="1493" height="235" key="GridCell.Tab.1.right" timestamp="1629659037498">
+    <state width="1250" height="298" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1629699254950" />
+    <state width="1250" height="298" key="GridCell.Tab.1.right" timestamp="1629699254951">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="235" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1629659037498" />
-    <state width="1170" height="150" key="GridCell.Tab.2.bottom" timestamp="1629485109529">
+    <state width="1250" height="298" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1629699254951" />
+    <state width="1250" height="333" key="GridCell.Tab.2.bottom" timestamp="1629699254921">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1170" height="150" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1629485109529" />
-    <state width="1170" height="150" key="GridCell.Tab.2.center" timestamp="1629485109529">
+    <state width="1250" height="333" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1629699254921" />
+    <state width="1250" height="333" key="GridCell.Tab.2.center" timestamp="1629699254920">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1170" height="150" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1629485109529" />
-    <state width="1170" height="150" key="GridCell.Tab.2.left" timestamp="1629485109529">
+    <state width="1250" height="333" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1629699254920" />
+    <state width="1250" height="333" key="GridCell.Tab.2.left" timestamp="1629699254920">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1170" height="150" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1629485109529" />
-    <state width="1170" height="150" key="GridCell.Tab.2.right" timestamp="1629485109529">
+    <state width="1250" height="333" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1629699254920" />
+    <state width="1250" height="333" key="GridCell.Tab.2.right" timestamp="1629699254920">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1170" height="150" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1629485109529" />
+    <state width="1250" height="333" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1629699254920" />
     <state x="415" y="89" key="Maven.ArtifactSearchDialog" timestamp="1629620046152">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -285,13 +293,24 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="365" y="9" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1629439021183" />
-    <state x="192" y="93" key="new project wizard" timestamp="1629637974230">
+    <state x="356" y="142" width="1180" height="598" key="new project wizard" timestamp="1629695944758">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="192" y="93" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1629637974230" />
-    <state x="809" y="196" key="run.anything.popup" timestamp="1629656966068">
+    <state x="356" y="142" width="1180" height="598" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1629695944758" />
+    <state x="810" y="196" key="run.anything.popup" timestamp="1629698808571">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="809" y="196" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1629656966068" />
+    <state x="810" y="196" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1629698808571" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/health_quartz/src/main/java/com/jiang/healthquartz/Task/ClearImgJob.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -65,7 +65,10 @@ public class test {
 
     @Test
     public void Test(){
-        QiniuUtils.upload2Qiniu("C:\\Users\\JiangZW\\Desktop\\新建文件夹\\aop.jpg","apo.jpg");
+//        QiniuUtils.upload2Qiniu("C:\\Users\\JiangZW\\Desktop\\新建文件夹\\aop.jpg","apo.jpg");
+
+        QiniuUtils.deleteFileFromQiniu("aop.jpg");
+
     }
 
 
