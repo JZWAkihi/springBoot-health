@@ -3,11 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="d448a00b-a61c-408e-8de6-d8aa5afd05a3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_backend/src/main/resources/static/pages/checkgroup.html" beforeDir="false" afterPath="$PROJECT_DIR$/health_backend/src/main/resources/static/pages/checkgroup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_backend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/health_backend/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_backend/src/main/resources/static/pages/setmeal.html" beforeDir="false" afterPath="$PROJECT_DIR$/health_backend/src/main/resources/static/pages/setmeal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_common/src/main/java/com/jiang/utils/QiniuUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_common/src/main/java/com/jiang/utils/QiniuUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health_service_provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_service_provider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_service_provider/src/main/java/com/jiang/health_service_provider/Impl/CheckGroupServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_service_provider/src/main/java/com/jiang/health_service_provider/Impl/CheckGroupServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_service_provider/src/main/java/com/jiang/health_service_provider/dao/CheckGroupDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_service_provider/src/main/java/com/jiang/health_service_provider/dao/CheckGroupDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_service_provider/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/health_service_provider/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health_service_provider/src/test/java/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_service_provider/src/test/java/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -64,7 +68,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../redisdemo" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.24712643" />
@@ -72,27 +76,23 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Document\Code\java\coding\SpringBoot-health\health_service_provider\src\main\resources\mapper" />
       <recent name="D:\Document\Code\java\coding\SpringBoot-health\health_interface\src\main\java\com\jiang" />
       <recent name="D:\Document\Code\java\coding\SpringBoot-health\health_common\src\main\java\com\jiang" />
       <recent name="D:\Document\Code\java\coding\SpringBoot-health\health_backend\src\main\resources\static" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jiang.health_service_provider.config" />
+      <recent name="com.jiang.health_backend.config" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Document\Code\java\coding\SpringBoot-health\health_service_provider\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.test.test">
-    <configuration name="mybatisTest.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.HealthBackendApplication">
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
       <module name="health_service_provider" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jiang.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.jiang" />
-      <option name="MAIN_CLASS_NAME" value="com.jiang.mybatisTest" />
-      <option name="METHOD_NAME" value="Test" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -102,6 +102,26 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="test" />
       <option name="METHOD_NAME" value="Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.Test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="health_service_provider" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <option name="METHOD_NAME" value="Test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.Test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="health_service_provider" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <option name="METHOD_NAME" value="Test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -133,9 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.test.test" />
+        <item itemvalue="JUnit.test.Test1" />
+        <item itemvalue="JUnit.test.Test2" />
+        <item itemvalue="Application.test" />
         <item itemvalue="JUnit.test.Test" />
-        <item itemvalue="JUnit.mybatisTest.Test" />
+        <item itemvalue="JUnit.test.test" />
       </list>
     </recent_temporary>
   </component>
@@ -163,6 +185,11 @@
       <workItem from="1629560862307" duration="1294000" />
       <workItem from="1629563389753" duration="44000" />
       <workItem from="1629597666954" duration="171000" />
+      <workItem from="1629598484105" duration="5663000" />
+      <workItem from="1629607981592" duration="2780000" />
+      <workItem from="1629617146274" duration="7460000" />
+      <workItem from="1629636146695" duration="3065000" />
+      <workItem from="1629652555820" duration="6424000" />
     </task>
     <servers />
   </component>
@@ -170,10 +197,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="531" y="93" key="#Project_Structure" timestamp="1629524535915">
+    <state x="361" y="91" key="#Inspections" timestamp="1629622720021">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="531" y="93" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1629524535915" />
+    <state x="361" y="91" key="#Inspections/0.0.1536.864@0.0.1536.864" timestamp="1629622720021" />
+    <state x="531" y="93" key="#Project_Structure" timestamp="1629653238395">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="531" y="93" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1629653238395" />
     <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1629442392202">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -182,10 +213,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="738" y="252" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1629437296334" />
-    <state x="819" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1629535699690">
+    <state x="819" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1629658435358">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="819" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1629535699690" />
+    <state x="819" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1629658435358" />
     <state x="756" y="190" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1629436824353">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -194,38 +225,42 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="454" y="0" key="#org.jetbrains.kotlin.idea.refactoring.safeDelete.KotlinOverridingDialog/0.0.1536.864@0.0.1536.864" timestamp="1629474844270" />
-    <state width="1170" height="110" key="GridCell.Tab.0.bottom" timestamp="1629598627483">
+    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1629638557688">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1170" height="110" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1629598627483" />
-    <state width="1170" height="110" key="GridCell.Tab.0.center" timestamp="1629598627482">
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1629638557688" />
+    <state width="1493" height="235" key="GridCell.Tab.0.bottom" timestamp="1629659037498">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1170" height="110" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1629598627482" />
-    <state width="1170" height="110" key="GridCell.Tab.0.left" timestamp="1629598627482">
+    <state width="1493" height="235" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1629659037498" />
+    <state width="1493" height="235" key="GridCell.Tab.0.center" timestamp="1629659037497">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1170" height="110" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1629598627482" />
-    <state width="1170" height="110" key="GridCell.Tab.0.right" timestamp="1629598627482">
+    <state width="1493" height="235" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1629659037497" />
+    <state width="1493" height="235" key="GridCell.Tab.0.left" timestamp="1629659037497">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1170" height="110" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1629598627482" />
-    <state width="1170" height="142" key="GridCell.Tab.1.bottom" timestamp="1629537146462">
+    <state width="1493" height="235" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1629659037497" />
+    <state width="1493" height="235" key="GridCell.Tab.0.right" timestamp="1629659037498">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1170" height="142" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1629537146462" />
-    <state width="1170" height="142" key="GridCell.Tab.1.center" timestamp="1629537146461">
+    <state width="1493" height="235" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1629659037498" />
+    <state width="1493" height="235" key="GridCell.Tab.1.bottom" timestamp="1629659037498">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1170" height="142" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1629537146461" />
-    <state width="1170" height="142" key="GridCell.Tab.1.left" timestamp="1629537146461">
+    <state width="1493" height="235" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1629659037498" />
+    <state width="1493" height="235" key="GridCell.Tab.1.center" timestamp="1629659037498">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1170" height="142" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1629537146461" />
-    <state width="1170" height="142" key="GridCell.Tab.1.right" timestamp="1629537146461">
+    <state width="1493" height="235" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1629659037498" />
+    <state width="1493" height="235" key="GridCell.Tab.1.left" timestamp="1629659037498">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1170" height="142" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1629537146461" />
+    <state width="1493" height="235" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1629659037498" />
+    <state width="1493" height="235" key="GridCell.Tab.1.right" timestamp="1629659037498">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="235" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1629659037498" />
     <state width="1170" height="150" key="GridCell.Tab.2.bottom" timestamp="1629485109529">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -242,21 +277,21 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1170" height="150" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1629485109529" />
-    <state x="415" y="89" key="Maven.ArtifactSearchDialog" timestamp="1629480723684">
+    <state x="415" y="89" key="Maven.ArtifactSearchDialog" timestamp="1629620046152">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="415" y="89" key="Maven.ArtifactSearchDialog/0.0.1536.864@0.0.1536.864" timestamp="1629480723684" />
+    <state x="415" y="89" key="Maven.ArtifactSearchDialog/0.0.1536.864@0.0.1536.864" timestamp="1629620046152" />
     <state x="365" y="9" key="SettingsEditor" timestamp="1629439021183">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="365" y="9" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1629439021183" />
-    <state x="192" y="93" key="new project wizard" timestamp="1629443051623">
+    <state x="192" y="93" key="new project wizard" timestamp="1629637974230">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="192" y="93" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1629443051623" />
-    <state x="809" y="196" key="run.anything.popup" timestamp="1629529446554">
+    <state x="192" y="93" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1629637974230" />
+    <state x="809" y="196" key="run.anything.popup" timestamp="1629656966068">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="809" y="196" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1629529446554" />
+    <state x="809" y="196" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1629656966068" />
   </component>
 </project>

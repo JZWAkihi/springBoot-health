@@ -12,15 +12,12 @@ import com.qiniu.storage.model.DefaultPutRet;
 import com.qiniu.util.Auth;
 
 /**
- * 七牛云工具类
- *
- * @Author TangBowen
- * @create 2021/6/23 0:42
+
  */
 public class QiniuUtils {
-    public static String accessKey = "E9xHU2ZixV13tEakDYYGC5pBvmknr6syXSXj-J72";
-    public static String secretKey = "1uApzU_gnU7kI1NevMTCfIK-6LBvo5-3NpSCGTJQ";
-    public static String bucket = "tangbowen-health-1";
+    public static String  accessKey = "bEsX76jRPWzWQK6GqADcuaZomEFWeqhdWS9ok4tL";
+    public static String  secretKey = "h6lDfr6Ms6fG4nQ8cqLypXFPD0TLYZDUMflFg5pQ";
+    public static String bucket = "jiang-health-pic";
     /*
     注意以下代码的zone，根据自己的服务器地区进行修改。
      */
