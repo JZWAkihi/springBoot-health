@@ -8,14 +8,14 @@ import java.util.Date;
  */
 public class OrderSetting implements Serializable{
     private Integer id ;
-    private Date orderDate;//预约设置日期
+    private String orderDate;//预约设置日期
     private int number;//可预约人数
     private int reservations ;//已预约人数
 
     public OrderSetting() {
     }
 
-    public OrderSetting(Date orderDate, int number) {
+    public OrderSetting(String orderDate, int number) {
         this.orderDate = orderDate;
         this.number = number;
     }
@@ -28,11 +28,11 @@ public class OrderSetting implements Serializable{
         this.id = id;
     }
 
-    public Date getOrderDate() {
+    public String getOrderDate() {
         return orderDate;
     }
 
-    public void setOrderDate(Date orderDate) {
+    public void setOrderDate(String orderDate) {
         this.orderDate = orderDate;
     }
 
@@ -50,5 +50,15 @@ public class OrderSetting implements Serializable{
 
     public void setReservations(int reservations) {
         this.reservations = reservations;
+    }
+
+    @Override
+    public String toString() {
+        return "OrderSetting{" +
+                "id=" + id +
+                ", orderDate=" + orderDate +
+                ", number=" + number +
+                ", reservations=" + reservations +
+                '}';
     }
 }

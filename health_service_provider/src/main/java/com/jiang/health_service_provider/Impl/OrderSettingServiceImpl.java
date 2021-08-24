@@ -3,6 +3,7 @@ package com.jiang.health_service_provider.Impl;
 import com.jiang.health_service_provider.dao.OrderSettingDao;
 import com.jiang.pojo.OrderSetting;
 import com.jiang.service.OrderSettingService;
+import com.jiang.utils.DateUtils;
 import org.apache.dubbo.config.annotation.Service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
@@ -35,7 +36,7 @@ public class OrderSettingServiceImpl implements OrderSettingService {
     }
 
     @Override
-    public List<Map> getOrderSettingByMonth(String date) {
+    public List<Map> getOrderSettingByMonth(String date) throws Exception {
         String dateBegin = date + "-1";
         String dateEnd = date + "-31";
 
@@ -49,7 +50,7 @@ public class OrderSettingServiceImpl implements OrderSettingService {
         List<Map> data = new ArrayList<>();
         for (OrderSetting orderSetting: list) {
             Map orderSettingMap = new HashMap();
-            orderSettingMap.put("date",orderSetting.getOrderDate().getDate());
+            orderSettingMap.put("date", DateUtils.parseString2Date(orderSetting.getOrderDate()));
             orderSettingMap.put("number",orderSetting.getNumber());
             orderSettingMap.put("reservations",orderSetting.getReservations());
             data.add(orderSettingMap);

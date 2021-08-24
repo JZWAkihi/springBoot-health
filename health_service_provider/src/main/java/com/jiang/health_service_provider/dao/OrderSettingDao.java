@@ -8,7 +8,11 @@ import java.util.Map;
 
 public interface OrderSettingDao {
     void add(OrderSetting orderSetting);
-    long findCountByOrderDate(Date orderDate);
-    void editNumberByOrderDate(OrderSetting orderSetting);
+    long findCountByOrderDate(String orderDate);
+    //根据日期范围查询预约设置信息
     List<OrderSetting> getOrderSettingByMonth(Map date);
+    void editNumberByOrderDate(OrderSetting orderSetting);
+    OrderSetting findByOrderDate(String orderDate);
+    //更新已预约人数
+    void editReservationsByOrderDate(OrderSetting orderSetting);
 }

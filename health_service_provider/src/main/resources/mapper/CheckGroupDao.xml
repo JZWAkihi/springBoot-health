@@ -82,5 +82,29 @@
         where id = #{id}
     </delete>
 
+    <resultMap id="baseResultMap" type="com.jiang.pojo.CheckGroup">
+        <id column="id" property="id"/>
+        <result column="name" property="name"/>
+        <result column="code" property="code"/>
+        <result column="helpCode" property="helpCode"/>
+        <result column="sex" property="sex"/>
+        <result column="remark" property="remark"/>
+        <result column="attention" property="attention"/>
+    </resultMap>
+
+    <resultMap id="findByIdResultMap" type="com.jiang.pojo.CheckGroup" extends="baseResultMap">
+        <collection property="checkItems"
+                    javaType="ArrayList"
+                    ofType="com.jiang.pojo.CheckItem"
+                    column="id"
+                    select="com.jiang.health_service_provider.dao.CheckItemDao.findCheckItemById">
+        </collection>
+    </resultMap>
+    
+    <select id="findCheckGroupById" parameterType="integer" resultMap="findByIdResultMap" >
+        select * from t_checkgroup
+        where id
+                  in (select checkgroup_id from t_setmeal_checkgroup where setmeal_id=#{id})
+    </select>
 
 </mapper>

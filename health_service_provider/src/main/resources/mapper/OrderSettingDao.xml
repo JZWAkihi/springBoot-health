@@ -18,7 +18,7 @@
     </update>
 
     <!--根据预约日期查询-->
-    <select id="findCountByOrderDate" parameterType="java.util.Date" resultType="long">
+    <select id="findCountByOrderDate" parameterType="string" resultType="long">
         select count(*)
         from t_ordersetting
         where orderDate = #{orderDate}
@@ -32,5 +32,17 @@
         from t_ordersetting
         where orderDate between #{dateBegin} and #{dateEnd}
     </select>
+
+    <select id="findByOrderDate" parameterType="string" resultType="com.jiang.pojo.OrderSetting">
+        select *
+        from t_ordersetting
+        where orderDate = #{orderDate}
+    </select>
+
+    <update id="editReservationsByOrderDate" parameterType="com.jiang.pojo.OrderSetting">
+        update t_ordersetting
+        set reservations = #{reservations}
+        where id = #{id}
+    </update>
 
 </mapper>
